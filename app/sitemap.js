@@ -1,5 +1,5 @@
 export default function sitemap() {
-  const base = 'https://mahindrarainforest.in'
+  const base = 'https://ltwagkeestate.in'
 
   return [
     {

@@ -5,7 +5,7 @@ export default function robots() {
       allow: '/',
       disallow: '',
     },
-    sitemap: 'https://mahindrarainforest.in/sitemap.xml',
+    sitemap: 'https://ltwagkeestate.in/sitemap.xml',
   }
 }
 
