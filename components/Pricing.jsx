@@ -12,7 +12,7 @@ const units = [
     oldPrice: null,
     btnText: "Get Cost Sheet",
     features: [
-      "EOI Amount: ₹2 Lakhs (Bankable Cheque)",
+      "EOI Amount: ₹2 Lakhs ",
       "Site Visits from 15th May 2026",
       "Premium Gated Community",
     ],
@@ -25,7 +25,7 @@ const units = [
     oldPrice: null,
     btnText: "Get Cost Sheet",
     features: [
-      "EOI Amount: ₹2 Lakhs (Bankable Cheque)",
+      "EOI Amount: ₹2 Lakhs ",
       "First 100 Units — Best Launch Price",
       "Premium Gated Community",
     ],
@@ -38,7 +38,7 @@ const units = [
     oldPrice: null,
     btnText: "Get Cost Sheet",
     features: [
-      "EOI Amount: ₹2 Lakhs (Bankable Cheque)",
+      "EOI Amount: ₹2 Lakhs ",
       "Limited Edition Residences",
       "Premium Gated Community",
     ],

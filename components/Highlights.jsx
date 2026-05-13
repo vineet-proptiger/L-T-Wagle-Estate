@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 
-import { Dumbbell, BookOpen, HeartPulse, Laptop, UtensilsCrossed, Trophy, Waves, Trees } from 'lucide-react'
+import { MapPin, Building2, TrainFront, LayoutGrid, Star, Trees, Dumbbell, Trophy } from 'lucide-react'
 
 const F_SANS = 'var(--font-sans), Open Sans, sans-serif'
 const F_JOST = 'var(--font-jost), Montserrat, sans-serif'
@@ -10,36 +10,36 @@ const highlightIconProps = { size: 26, strokeWidth: 1.5 }
 
 const highlights = [
   {
-    text: 'Premium 2 BHK (690–790 Sq. Ft.) & 3 BHK (1100–1290 Sq. Ft.)',
+    text: "Located in Thane's Prime Residential Hub",
+    icon: <MapPin {...highlightIconProps} />,
+  },
+  {
+    text: 'Contemporary Design & Infrastructure',
+    icon: <Building2 {...highlightIconProps} />,
+  },
+  {
+    text: 'Seamless Highway & Metro Access',
+    icon: <TrainFront {...highlightIconProps} />,
+  },
+  {
+    text: 'Well-Planned Living Spaces',
+    icon: <LayoutGrid {...highlightIconProps} />,
+  },
+  {
+    text: 'Lifestyle Amenities Included',
+    icon: <Star {...highlightIconProps} />,
+  },
+  {
+    text: 'Green & Peaceful Surroundings',
     icon: <Trees {...highlightIconProps} />,
-  },
-  {
-    text: 'Landmark Architectural Development by L&T Realty',
-    icon: <Trophy {...highlightIconProps} />,
-  },
-  {
-    text: 'EOI at just ₹2 Lakhs via Bankable Cheque',
-    icon: <BookOpen {...highlightIconProps} />,
-  },
-  {
-    text: 'First 100 Units at Best Launch Pricing',
-    icon: <UtensilsCrossed {...highlightIconProps} />,
-  },
-  {
-    text: 'Site Visits Open from 15th May 2026',
-    icon: <Laptop {...highlightIconProps} />,
   },
   {
     text: 'Premium Clubhouse & World-Class Amenities',
     icon: <Dumbbell {...highlightIconProps} />,
   },
   {
-    text: 'Spa, Infinity Pool & Wellness Zones',
-    icon: <Waves {...highlightIconProps} />,
-  },
-  {
-    text: '~10 Mins from Mulund Toll Naka (LBS Marg)',
-    icon: <HeartPulse {...highlightIconProps} />,
+    text: 'Trusted Legacy of L&T Realty',
+    icon: <Trophy {...highlightIconProps} />,
   },
 ]
 
