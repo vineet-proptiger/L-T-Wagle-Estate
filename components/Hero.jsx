@@ -184,10 +184,10 @@ export default function Hero({ setIsOpen }) {
             display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '12px',
             borderRight: '1px solid rgba(255,255,255,0.06)',
           }}>
-            <p style={{ fontFamily: F_SANS, fontSize: '13px', lineHeight: 1.6, color: 'rgba(255,255,255,0.45)', fontWeight: 300 }}>
+            <p style={{ fontFamily: F_SANS, fontSize: '13px', lineHeight: 1.6, color: '#ffffff', fontWeight: 400 }}>
               A landmark architectural development by{' '}
-              <span style={{ color: 'var(--color-gold)', fontWeight: 600 }}>L&amp;T Realty</span> — premium 2 &amp; 3 BHK residences at{' '}
-              <span style={{ color: 'var(--color-gold)', fontWeight: 600 }}>Wagle Estate, Thane (Mulund Extension)</span>.
+              <span style={{ color: 'var(--color-gold)', fontWeight: 700 }}>L&amp;T Realty</span> — premium 2 &amp; 3 BHK residences at{' '}
+              <span style={{ color: 'var(--color-gold)', fontWeight: 700 }}>Wagle Estate, Thane</span>.
             </p>
 
             {/* Trust badges */}
@@ -198,14 +198,14 @@ export default function Hero({ setIsOpen }) {
                 { icon: '🏷️', label: 'Best\nPrice' },
               ].map((b, i) => (
                 <div key={i} style={{
-                  flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '3px',
-                  padding: '14px 8px',
-                  border: '1px solid rgba(255,255,255,0.07)',
-                  borderRadius: '6px',
-                  background: 'rgba(255,255,255,0.04)',
+                  flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px',
+                  padding: '12px 6px',
+                  border: '1px solid rgba(255,255,255,0.15)',
+                  borderRadius: '8px',
+                  background: 'rgba(255,255,255,0.06)',
                 }}>
-                  <span style={{ fontSize: '13px', lineHeight: 1 }}>{b.icon}</span>
-                  <span style={{ fontFamily: F_SANS, fontSize: '9px', fontWeight: 600, letterSpacing: '0.06em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.3)', textAlign: 'center', lineHeight: 1.2, whiteSpace: 'pre-line' }}>{b.label}</span>
+                  <span style={{ fontSize: '15px', lineHeight: 1 }}>{b.icon}</span>
+                  <span style={{ fontFamily: F_SANS, fontSize: '9.5px', fontWeight: 800, letterSpacing: '0.04em', textTransform: 'uppercase', color: '#ffffff', textAlign: 'center', lineHeight: 1.2, whiteSpace: 'pre-line' }}>{b.label}</span>
                 </div>
               ))}
             </div>
@@ -247,7 +247,7 @@ export default function Hero({ setIsOpen }) {
               New Launch — Exclusive Early Access
             </p>
             {[
-              'Premium 2 BHK (690–790 Sq. Ft.) & 3 BHK (1100–1290 Sq. Ft.)',
+              'Premium 2 & 3 BHK Apartments Thane',
               'Landmark Architectural Development by L&T Realty',
               '~10 Mins from Mulund Toll Naka (LBS Marg)',
               'EOI at just ₹2 Lakhs — First 100 Units at Best Price',
@@ -266,10 +266,10 @@ export default function Hero({ setIsOpen }) {
             display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '20px',
           }}>
             <div style={{ textAlign: 'center' }}>
-              <p style={{ fontFamily: F_SANS, fontSize: '14.5px', fontWeight: 600, color: 'rgba(255,255,255,0.4)', letterSpacing: '0.06em', marginBottom: '2px' }}>
+              <p style={{ fontFamily: F_SANS, fontSize: '14.5px', fontWeight: 700, color: '#ffffff', letterSpacing: '0.04em', marginBottom: '4px' }}>
                 2 &amp; 3 BHK Premium Residences
               </p>
-              <p style={{ fontFamily: F_SANS, fontSize: '11px', fontWeight: 700, letterSpacing: '0.18em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.25)', marginBottom: '4px' }}>
+              <p style={{ fontFamily: F_SANS, fontSize: '11px', fontWeight: 800, letterSpacing: '0.15em', textTransform: 'uppercase', color: 'var(--color-gold)', marginBottom: '6px' }}>
                 Starting at
               </p>
               <p className="blink-price" style={{ fontFamily: F_JOST, fontSize: '32px', fontWeight: 600, color: '#ffffff', lineHeight: 1 }}>
