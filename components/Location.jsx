@@ -7,8 +7,8 @@ const locationItems = [
   { label: 'Mulund Toll Naka (LBS Marg)', time: '~10 mins' },
   { label: 'Jupiter Hospital, Thane', time: '8 mins' },
   { label: 'DAV Public School, Thane', time: '12 mins' },
-  { label: 'Eastern Express Highway', time: '15 mins' },
-  { label: 'Hiranandani Hospital', time: '15 mins' },
+  { label: 'Eastern Express Highway', time: '3 mins' },
+  { label: 'Viviana Mall', time: '10 mins' },
   { label: 'Chhatrapati Shivaji Maharaj International Airport', time: '35 mins' },
 ]
 
