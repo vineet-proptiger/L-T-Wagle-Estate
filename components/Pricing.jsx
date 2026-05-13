@@ -31,6 +31,19 @@ const units = [
     ],
     isPopular: true,
   },
+  {
+    type: "4 BHK Residences",
+    size: "On Request",
+    price: "Ask For Price",
+    oldPrice: null,
+    btnText: "Get Cost Sheet",
+    features: [
+      "EOI Amount: ₹2 Lakhs (Bankable Cheque)",
+      "Limited Edition Residences",
+      "Premium Gated Community",
+    ],
+    isPopular: false,
+  },
 ];
 
 const Pricing = ({ setIsOpen }) => {
@@ -70,7 +83,7 @@ const Pricing = ({ setIsOpen }) => {
           <div className="w-20 h-1 mx-auto rounded-full mb-4" style={{ background: "var(--color-gold)" }} />
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto">
           {units.map((unit, idx) => (
             <div
               key={idx}
