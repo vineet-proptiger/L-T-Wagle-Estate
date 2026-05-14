@@ -120,6 +120,7 @@ const Location = () => {
                 background: 'linear-gradient(90deg, var(--color-gold), var(--color-gold-light))', zIndex: 10,
               }} />
               <iframe
+                title="L&T Wagle Estate Location Map"
                 src="https://maps.google.com/maps?q=Wagle+Industrial+Estate,+Thane,+Maharashtra&t=&z=14&ie=UTF8&iwloc=&output=embed"
                 width="100%"
                 height="100%"

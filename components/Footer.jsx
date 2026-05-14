@@ -29,7 +29,7 @@ const Footer = () => (
         &copy; 2026 L&amp;T Wagle Estate. All rights reserved.
       </p>
       <div className="flex flex-wrap justify-center items-center gap-4 sm:gap-6">
-        <Link href="/privacy-policy" style={{ fontSize: '13px', color: 'var(--color-gold)', fontFamily: F_SANS }}>
+        <Link href="/privacy-policy" style={{ fontSize: '13px', color: 'var(--color-gold)', fontFamily: F_SANS }} title="Read our Privacy Policy">
           Privacy Policy
         </Link>
       </div>

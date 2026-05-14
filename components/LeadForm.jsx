@@ -1,5 +1,6 @@
 'use client'
 import React, { useState } from 'react'
+import Link from 'next/link'
 import { PROJECT_ID, PROJECT_NAME, API_ENDPOINT, SHEET_NAME, SECRET_KEY, CITY_DISPLAY } from '../lib/config'
 import { buildTrackingFields } from '../lib/formMeta'
 
@@ -85,7 +86,7 @@ const LeadForm = ({ formName = 'Hero Form', btnText = 'Submit Details' }) => {
         <input type="checkbox" id="privacy-lead" required defaultChecked className="mt-0.5 shrink-0" style={{ accentColor: GOLD }} />
         <label htmlFor="privacy-lead" className="text-xs text-gray-500 leading-relaxed cursor-pointer" style={{ fontFamily: F_SANS }}>
           I agree to receive updates as per the{' '}
-          <a href="/privacy-policy" target="_blank" rel="noopener noreferrer" style={{ color: GOLD, textDecoration: 'underline' }}>Privacy Policy</a>
+          <Link href="/privacy-policy" style={{ color: GOLD, textDecoration: 'underline' }} title="Read our Privacy Policy">Privacy Policy</Link>
         </label>
       </div>
 

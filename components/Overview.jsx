@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { PROJECT_ID, PROJECT_NAME, API_ENDPOINT, SHEET_NAME, SECRET_KEY, CITY_DISPLAY } from '../lib/config'
 import { buildTrackingFields } from '../lib/formMeta'
 import { overviewImage } from '../lib/images'
@@ -176,7 +177,7 @@ const EarlyForm = () => {
         <input type="checkbox" required defaultChecked
           style={{ accentColor: 'var(--color-gold)', marginTop: '3px', flexShrink: 0, width: '14px', height: '14px' }} />
         <span style={{ fontSize: '11px', color: '#9ca3af', fontFamily: F_SANS, lineHeight: 1.6 }}>
-          I authorize the developer &amp; its representatives to contact me via Email / SMS / WhatsApp / Call.
+          I agree to receive updates as per the <Link href="/privacy-policy" className="underline hover:text-[var(--color-gold)]" title="Read our Privacy Policy">Privacy Policy</Link>
         </span>
       </label>
 
