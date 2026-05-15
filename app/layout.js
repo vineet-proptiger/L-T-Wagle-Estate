@@ -1,4 +1,5 @@
 import './globals.css'
+import { faviconImages } from '../lib/images'
 import { Open_Sans, Montserrat, Cormorant_Garamond } from 'next/font/google'
 import localFont from 'next/font/local'
 import { GoogleTagManager } from '@next/third-parties/google'
@@ -37,6 +38,17 @@ export const metadata = {
   alternates: {
     canonical: 'https://lntwagleestatethane.in/',
   },
+  icons: {
+    icon: [
+      { url: faviconImages.ico },
+      { url: faviconImages.png96, sizes: '96x96', type: 'image/png' },
+      { url: faviconImages.svg, type: 'image/svg+xml' },
+    ],
+    apple: [
+      { url: faviconImages.apple, sizes: '180x180', type: 'image/png' },
+    ],
+  },
+  manifest: faviconImages.manifest,
 }
 
 export default function RootLayout({ children }) {
